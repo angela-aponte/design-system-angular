@@ -1,11 +1,12 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
+import { Boton } from './boton/boton';
+import { Alerta } from './alerta/alerta';
+import { Insignia } from './insignia/insignia';
 
 @Component({
-  imports: [],
   selector: 'app-root',
-  styleUrl: './app.css',
+  imports: [Boton, Alerta, Insignia],
   templateUrl: './app.html',
+  styleUrl: './app.css',
 })
-export class App {
-  protected readonly title = signal('design-system-angular');
-}
+export class App {}

@@ -1,0 +1,4 @@
+.sub { color: var(--muted); margin-bottom: 2rem; }
+section { margin-bottom: 2rem; }
+.fila { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
+.columna { display: grid; gap: 0.75rem; }
